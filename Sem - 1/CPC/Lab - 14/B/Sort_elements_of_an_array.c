@@ -8,7 +8,7 @@ void main(){
         printf("Enter No.%d : ",i + 1);
         scanf("%d",&arr[i]);
     }
-    for(i = 0;i < n;i++){
+    for(i = 0;i < n - 1;i++){
         min = arr[i];
         for(j = i + 1;j < n;j++){
             if(min > arr[j]){
