@@ -10,6 +10,7 @@ void main(){
     }
     for(i = 0;i < n - 1;i++){
         min = arr[i];
+        p = i;
         for(j = i + 1;j < n;j++){
             if(min > arr[j]){
                 min = arr[j];
