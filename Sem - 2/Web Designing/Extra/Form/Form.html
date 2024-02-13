@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - 1</title>
+</head>
+<body>
+    <center>
+        <h1>Studnet Registration</h1>
+        <form>
+            <fieldset style="width: 90%;">
+                <legend align="center"> Personal Information </legend>
+                    <table cellpadding="10" >
+                        <tr>
+                            <td>Name*</td>
+                            <td> <input type="text" placeholder="Enter Your Name"> </td>
+                            <td>Password*</td>
+                            <td> <input type="text" placeholder="Enter Your Password"> </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Email*</td>
+                            <td colspan="3"> <input type="email" placeholder="Enter Your Email"> </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Mobile number</td>
+                            <td> <input type="number" placeholder="Enter your number"> </td>
+                            <td>Date of Birth</td>
+                            <td> <input type="date" > </td>
+                        </tr>
+
+                        <tr>
+                            <td valign="top">Gender</td>
+                            <td>
+                                    <input type="radio" name="Gender"> Male 
+                                    <br>
+                                    <input type="radio" name="Gender"> Female 
+                            </td>
+                            <td valign="top"> Hobbies </td>
+                            <td>
+                                    <input type="checkbox" name="Hobbies"> Reading 
+                                    <br>
+                                    <input type="checkbox" name="Hobbies"> Singing
+                                    <br>
+                                    <input type="checkbox" name="Hobbies"> Cricket 
+                                    <br>
+                                    <input type="checkbox" name="Hobbies"> Swimming
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>CGPA</td>
+                            <td colspan="3"> 0.0 <input type="range" name="CGPA"> 10.00 | OR | <input type="number"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Insert Resume</td>
+                            <td colspan="3"> <input type="file" name="Insert Resume"> </td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkedIn URL</td>
+                            <td colspan="3"> <input type="text" name="LinkedIn URL" placeholder="Enter your URL"> </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" align="right"> <input type="submit" name="submit" value="Submit"> </td>
+                            <td colspan="2" align="left"> <input type="reset" name="reset" value="Reset"> </td>
+                        </tr>
+                        
+                    </table>
+            </fieldset>        
+        </form>
+    </center>
+</body>
+</html>
