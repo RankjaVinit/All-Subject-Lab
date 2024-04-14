@@ -39,13 +39,13 @@ public class MatrixRowSum {
             threads[i].start();
         }
 
-        // try {
-        //     for (int i = 0; i < m; i++) {
-        //         threads[i].join();
-        //     }
-        // } catch (InterruptedException e) {
-        //     e.printStackTrace();
-        // }
+        try {
+            for (int i = 0; i < m; i++) {
+                threads[i].join();
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         System.out.println("Sum of elements in each row:");
         for (int i = 0; i < m; i++) {
