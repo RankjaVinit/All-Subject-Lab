@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+</head>
+<body>
+    <script>
+        num = prompt("Enter Number : ")
+        for(i = 0;i < num.length / 2;i++){
+            if(num.charAt(i) != num.charAt(num.length - i - 1) ) {
+                alert(num + " is not Palindrome number.")
+                break;
+            }
+            if(i > num.length / 2) alert(num + " is Palindrome number.")
+        }
+        alert(fibonacci) 
+    </script>
+</body>
+</html>

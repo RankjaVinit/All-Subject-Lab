@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime</title>
+</head>
+<body>
+    <script>
+        num = prompt("Enter Number : ")
+        num = parseInt(num)
+        var i;
+        for(i = 2;i <= Math.sqrt(num);i++){
+            if(num % i == 0){
+                alert(num + " is non-prime number.")
+                break;
+            }
+            
+        }
+        if(i > Math.sqrt(num)) alert(num + " is prime number.") 
+    </script>
+</body>
+</html>
